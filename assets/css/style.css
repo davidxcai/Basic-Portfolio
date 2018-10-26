@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
 }
-
+/*general style of entire page*/
 body {
     background: url('../images/simplebg.jpg');
     font-size: 18px;
@@ -9,7 +9,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: #777;
 }
-
+/*main box in center of page*/
 .container {
     width: 100%;
     max-width: 960px;
@@ -43,7 +43,7 @@ h2, h3 {
 }
 
 /*header*/
-
+/*the header on very top*/
 #masterheader {
     background: #fff;
     margin: 0 0 30px;
@@ -54,7 +54,7 @@ h2, h3 {
     position: fixed;
     width: 100%;
 }
-
+/*blue Dafydd Zephyr logo*/
 #logo {
     width: 280px;
     height: 90px;
@@ -68,12 +68,12 @@ h2, h3 {
     font-size: 30px;
     text-decoration: none;
 }
-
+/*all three nav buttons*/
 nav {
     float: right;
     margin-top: 25px;
 }
-
+/*each individual nav button*/
 nav a {
     color: #999;
     text-decoration: none;
@@ -83,7 +83,7 @@ nav a {
     padding-left: 15px;
     line-height: 18px;
 }
-
+/*first nav on the left*/
 nav a:first-child {
     border-left: 0 none;
 }
@@ -135,6 +135,11 @@ h3, .sidebar, h2 {
     height: 62px;
     margin-top: 8px;
     margin-right: 5px;
+}
+
+.social:hover {
+    opacity: .8;
+    cursor: pointer;
 }
 
 .social:last-child {
